@@ -18,12 +18,14 @@ class Perceptron:
 
         y_ = np.array([1 if i > 0 else 0 for i in y])
 
+        # Estos dos bucles representan la función de enumeración
         for _ in range(self.n_iters):
 
             for idx, x_i in enumerate(X):
 
                 linear_output = np.dot(x_i, self.weights) + self.bias
-                y_predicted = self.activation_func(linear_output)
+                y_predicted = self.activation_func(
+                    linear_output)  # Función de activación
 
                 # Perceptron update rule
                 update = self.lr * (y_[idx] - y_predicted)
