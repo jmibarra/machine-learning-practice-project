@@ -9,6 +9,7 @@ Código para la seríe de artículos Machne Learning one on one
 - Logistic Regression
 - [Naive Bayes](https://medium.com/@jmibarra86/machine-learning-101-clasificador-naive-bayes-36b67fe5b6a9)
 - [Perceptron](https://medium.com/@jmibarra86/machine-learninperceptron-f9d4a55bad6f)
+- [SVM]()
 
 ## Instalación y uso
 
